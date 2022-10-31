@@ -26,8 +26,8 @@
                 <strong>Liên hệ yêu thích</strong>
             </label>
         </div>
-        <div class="form-group mt-3 d-flex justify-content-center">
-            <button class="btn btn-primary me-5">Lưu</button>
+        <div class="form-group mt-3 d-flex justify-content-around">
+            <button class="btn btn-primary ">Lưu</button>
             <button v-if="contactLocal._id" type="button" class="btn btn-danger" @click="deleteContact">
                 Xóa
             </button>
